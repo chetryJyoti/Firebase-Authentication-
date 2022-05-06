@@ -24,3 +24,49 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Raleway:wght@600&family=Roboto:wght@100;300;400;500&display=swap');
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+.heading
+{
+  margin-top: 8vh;
+  text-align: center;
+  h1{
+    font-size: 2.4rem;
+    // font-weight: bold;
+  }
+}
+p,ion-label{
+  color: rgb(102, 102, 102);
+}
+.social-login{
+  margin-top:35px;
+  text-align: center;
+  ion-button{
+    width: 25%;
+    height:50px;
+    margin: 5px;
+
+    ion-icon{
+      font-size: 1.8rem;
+    }
+  }
+  .twitter{
+    --background:#00acee;
+  }
+  .facebook{
+    --background:#4267b2;
+  }
+}
+.email-login{
+  margin-top: 45px;
+  text-align: center;
+  .signup{
+    width: 85%;
+    height: 50px;
+    text-transform: none;
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,43 @@
+<ion-content>
+  <div class="heading">
+    <h1>Login</h1>
+    <p>Log in to continue using the app</p>
+  </div>
+  <!--  -->
+  <div class="social-login">
+    <p>Enter via social network</p>
+    <div class="links">
+      <ion-button class="twitter" routerLink="/thankyou">
+        <ion-icon name="logo-twitter"></ion-icon>
+      </ion-button>
+      <ion-button class="facebook" routerLink="/thankyou">
+        <ion-icon name="logo-facebook"></ion-icon>
+      </ion-button>
+      <ion-button class="google" routerLink="/thankyou">
+        <ion-icon name="logo-google"></ion-icon>
+      </ion-button>
+    </div>
+  </div>
+  <div class="email-login">
+    <p>Or login with email</p>
+    <div class="formfield">
+      <input type="text" placeholder="email" name="email" id="email" required />
+    </div>
+    <div class="formfield">
+      <input type="password" placeholder="password" id="password" required />
+    </div>
+    <div class="otherlinks">
+      <div class="remember-me">
+        <ion-checkbox></ion-checkbox>
+        <ion-label>Remember me!</ion-label>
+      </div>
+      <a href="#">Forgot password?</a>
+    </div>
+  </div>
+  <div class="login-btn">
+    <ion-button class="login" routerLink="/thankyou"> Login</ion-button>
+    <div class="new-account">
+      <p > Don't have an account? <span routerLink="/signup">SignUp</span> </p>
+    </div>
+  </div>
+</ion-content>

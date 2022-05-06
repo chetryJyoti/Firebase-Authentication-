@@ -1,0 +1,57 @@
+.formfield {
+  position: relative;
+  margin: auto;
+  padding: 0px;
+  border: 0px;
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+.formfield > input {
+  padding: 1.2em;
+  margin: 0.5em;
+  width: 90%;
+}
+input {
+  border: 1px solid #ddd;
+  outline: none;
+  border-radius: 5px;
+}
+.otherlinks {
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: space-between;
+  .remember-me {
+    ion-checkbox {
+      --border-color: var(--ion-color-primary);
+      --size: 18px;
+    }
+    display: flex;
+    align-items: center;
+    ion-label {
+      margin-left:5px !important;
+      font-size: small;
+    }
+  }
+}
+.login-btn {
+  text-align: center;
+  margin-top: 18px;
+  .login {
+    width: 85%;
+    height: 50px;
+    text-transform: none;
+    font-size: 1.6rem;
+  }
+  .new-account {
+    margin-top: 10px;
+    a {
+      color: rgb(102, 102, 102);
+      text-decoration: none;
+    }
+    span{
+      padding:2px;
+      color: var(--ion-color-primary);
+    }
+  }
+}
